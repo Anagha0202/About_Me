@@ -1,0 +1,281 @@
+body {
+    padding : 10px;
+    background-image: url("backgroundImage.jpg");
+    height: fit-content; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#nav {
+    text-align: center;
+    background-color:  rgba(255,255,255,0.5);
+    vertical-align:bottom;
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 800;
+}
+
+.container {
+    background-color:  rgba(255, 255, 255, 0.792);
+    width: 100%;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.nav-bar {
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 10px;
+}
+
+nav {
+    font-size: 25px;
+    width: fit-content;
+    text-align: center;
+    vertical-align:bottom;
+    margin-top: 30px;
+}
+
+.nav navbar-nav navbar-right {
+    background-color: rgba(255,255,255,0.5);
+}
+
+figcaption{
+    text-align:center;
+    color: grey;
+    margin-left: 15%;
+}
+
+aside {
+    width: 100%;
+    height: fit-content;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: right;
+    font-style: italic;
+    background-color:rgb(220, 218, 218);
+}
+
+.footer {
+    padding: 15px;
+    margin: 0px;
+    margin-top: 1%;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.dot{
+    height:125px;
+    width:125px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align : center;
+}
+
+.imgLogo {
+    width: 70%;
+    margin-top: 12px;
+}
+
+.Name {
+    font-size: 49px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    height: 35px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }  
+  
+  .fa-linkedin-square {
+    background:  rgba(255, 255, 255, 0.262);
+    color: grey;
+
+  }
+
+  .fa-github {
+    background:  rgba(255, 255, 255, 0.262);
+    color: grey;
+  }
+
+  .fa-facebook {
+    background: rgba(255, 255, 255, 0.262);
+    color: grey;
+  }
+
+  .fa-instagram {
+    background:  rgba(255, 255, 255, 0.262);
+    color: grey;
+  }
+
+  #hiSymbol {
+    font-size: 100px;
+    text-align: end;
+    width: fit-content;
+  }
+
+  #hiText {
+    font-size: 45px;
+  }
+
+  #photo {
+    margin-left: 25%;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.792);
+    border-radius: 50%;
+    display: inline-block;
+    text-align : center;
+  }
+
+  .marquee {
+    height: 20px;
+    width: fit-content;
+  
+    overflow: hidden;
+    position: relative;
+
+    animation: marquee 20s linear infinite;
+
+    color: grey;
+    margin-top: 1%;
+    font-size: 15px;
+  }
+  
+  @keyframes marquee {
+    0% { left: 100%; right:-100%}
+    100% { left: -100%; }
+  }
+
+#SCULogo {
+    width: 500px;
+    margin-left: 50px;
+}
+
+#scucaption{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+#VnM{
+    background-color: rgba(220, 218, 218, 0.751);
+    border-radius: 5%;
+    margin-right: 40px;
+}
+
+#core{
+    background-color: rgba(220, 218, 218, 0.751);
+    margin-right: 10px;
+    border-radius: 5%;
+
+}
+
+#scuvideo {
+    padding: 0.5%; 
+    background-color:rgba(220, 218, 218, 0.751); 
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    height: 360px;
+    border-radius: 5%;
+}
+
+#NMITLogo {
+    width: 550px;
+    margin-left: 50px;
+    height: 120px;
+}
+
+#nmitcaption{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 45px;
+}
+
+#nmitvideo {
+    padding: 0.5%; 
+    background-color:rgba(220, 218, 218, 0.751); 
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    height: 360px;
+    border-radius: 5%;
+}
+
+#download{
+    margin: 40px; 
+    font-size: 30px; 
+    background-color: grey; 
+    text-align: center;
+}
+
+#subnav li  {
+    margin: 10px 10px 10px 10px;
+    border-radius: 10%;
+    /* text-decoration: underline; */
+}
+
+#bs-navbar-collapse-1 {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  rgba(220, 218, 218, 0.751);
+    margin: 30px 30px 30px 30px;
+}
+
+
